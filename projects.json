@@ -737,6 +737,29 @@
       "likes": "2.5K+",
       "sourceCodeUrl": "",
       "sourceCodeLabel": ""
+    },
+    {
+      "id": 36,
+      "title": "Cafe Management System",
+      "description": "Cafe Management System is a software application that helps cafe owners and managers run their businesses more efficiently. It provides tools for managing customers, orders, inventory, and finances. The system can also help with marketing and promotions.",
+      "videoId": "d1MfY7MpX4c",
+      "tags": [
+        "Angular",
+        "Spring Boot",
+        "Java",
+        "MySQL",
+        "JWT",
+        "HTML",
+        "CSS"
+      ],
+      "difficulty": "Advanced",
+      "duration": "36:04",
+      "category": "Web Application",
+      "publishedDate": "2022-01-30",
+      "views": "239K+",
+      "likes": "2.5K+",
+      "sourceCodeUrl": "",
+      "sourceCodeLabel": ""
     }
   ],
   "channelStats": {
