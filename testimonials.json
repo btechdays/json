@@ -28,13 +28,14 @@
       "content": "I have completely implemented this project. Very nice explanation and standard folder structure used for creating Spring boot project. Keep it up sir. Thanks for this project.",
       "company": ""
     },
-        {
+    {
       "id": 5,
       "name": "Bhavana M",
       "role": "Software Developer",
       "content": "Thank you so much. This video helped me to complete my C# project. It turned out so good that I can sleep peacefully till the submission date. Once again Thank you 🫶",
       "company": ""
-    },{
+    },
+    {
       "id": 6,
       "name": "Ishu Rathnayake",
       "role": "Software Developer",
@@ -53,6 +54,20 @@
       "name": "Carlos Kalani",
       "role": "Software Developer",
       "content": "Thank you very much It`s really help me, you explained very well and in a easy way. It is easy to understand.👍",
+      "company": ""
+    },
+    {
+      "id": 9,
+      "name": "Wishva Yashod",
+      "role": "Software Developer",
+      "content": "I’m really happy I successfully completed it. Thank you very much, sir. Love you.",
+      "company": ""
+    },
+    {
+      "id": 10,
+      "name": "Rohan Rusho",
+      "role": "Software Developer",
+      "content": "I've completed the project today. Thank you so much ❤❤❤❤❤",
       "company": ""
     }
   ]
