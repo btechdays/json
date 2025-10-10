@@ -1,12 +1,34 @@
 {
   "playStoreApps": [
     {
+      "id": 1,
+      "name": "Hiddle",
+      "description": "This app securely encrypts and decrypts text using default or custom keys, with optional history tracking and lock protection. Users can change keys, delete history, and contact support via the About Us page, ensuring complete privacy, control, and ease of use.",
+      "packageName": "com.btechdays.hiddle",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.btechdays.hiddle",
+      "category": "Tools",
+      "rating": 4.4,
+      "downloads": "10+",
+      "screenshots": [],
+      "features": [
+        "Encrypt & Decrypt Text",
+        "Default & Custom Keys",
+        "History Tracking (Optional)",
+        "App Lock Security",
+        "Change or Reset Keys",
+        "Clear All History",
+        "User-Friendly UI",
+        "Offline Use",
+        "Full Privacy Control"
+      ]
+    },
+    {
       "id": 2,
       "name": "Pack Your Bag",
       "description": "Smart packing assistant for travelers and students. Create customizable packing lists, get weather-based suggestions, and never forget essential items again.",
       "packageName": "com.btechdays.packyourbag",
       "playStoreUrl": "https://play.google.com/store/apps/details?id=com.btechdays.packyourbag",
-      "category": "Productivity",
+      "category": "Travel & Local",
       "rating": 4.4,
       "downloads": "1K+",
       "screenshots": [],
