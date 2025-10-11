@@ -1,0 +1,186 @@
+{
+  "java": [
+    {
+      "id": 1,
+      "category": "Java Basics",
+      "question": "What is Java?",
+      "answer": "Java is a high-level, class-based, object-oriented programming language designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA)."
+    },
+    {
+      "id": 2,
+      "category": "Java Basics",
+      "question": "What are the main features of Java?",
+      "answer": "The main features of Java include:\n• Platform Independence (Write Once, Run Anywhere)\n• Object-Oriented Programming\n• Simple and Easy to Learn\n• Secure\n• Architecture Neutral\n• Portable\n• Robust\n• Multithreaded\n• High Performance\n• Distributed"
+    },
+    {
+      "id": 3,
+      "category": "Java Basics",
+      "question": "What is JVM, JRE, and JDK?",
+      "answer": "JVM (Java Virtual Machine): An abstract machine that provides the runtime environment to execute Java bytecode.\n\nJRE (Java Runtime Environment): Provides libraries, JVM, and other components to run Java applications. It doesn't contain development tools.\n\nJDK (Java Development Kit): Contains JRE plus development tools like compiler, debugger, etc."
+    },
+    {
+      "id": 4,
+      "category": "OOP Concepts",
+      "question": "What are the four pillars of Object-Oriented Programming?",
+      "answer": "The four pillars of OOP are:\n\n1. Encapsulation: Bundling data and methods that operate on that data within a single unit (class)\n\n2. Inheritance: Mechanism where a new class inherits properties and behaviors from an existing class\n\n3. Polymorphism: Ability of objects to take on multiple forms (method overloading and overriding)\n\n4. Abstraction: Hiding complex implementation details and showing only essential features"
+    },
+    {
+      "id": 5,
+      "category": "OOP Concepts",
+      "question": "What is the difference between Abstract Class and Interface?",
+      "answer": "Abstract Class:\n• Can have abstract and non-abstract methods\n• Can have constructors\n• Can have instance variables\n• Uses 'extends' keyword\n• Supports single inheritance\n• Can have access modifiers\n\nInterface:\n• All methods are abstract by default (before Java 8)\n• Cannot have constructors\n• Only static and final variables\n• Uses 'implements' keyword\n• Supports multiple inheritance\n• Methods are public by default"
+    },
+    {
+      "id": 6,
+      "category": "Collections",
+      "question": "What is the difference between ArrayList and LinkedList?",
+      "answer": "ArrayList:\n• Uses dynamic array internally\n• Better for storing and accessing data\n• Slower manipulation (add/remove in middle)\n• Less memory overhead\n• Random access is O(1)\n\nLinkedList:\n• Uses doubly linked list internally\n• Better for manipulating data\n• Faster manipulation (add/remove in middle)\n• More memory overhead (stores references)\n• Random access is O(n)"
+    },
+    {
+      "id": 7,
+      "category": "Collections",
+      "question": "What is the difference between HashMap and HashTable?",
+      "answer": "HashMap:\n• Not synchronized (not thread-safe)\n• Allows one null key and multiple null values\n• Fast performance\n• Iterator is fail-fast\n• Introduced in Java 1.2\n\nHashTable:\n• Synchronized (thread-safe)\n• Does not allow null keys or values\n• Slower performance\n• Enumerator is fail-safe\n• Legacy class"
+    },
+    {
+      "id": 8,
+      "category": "Exception Handling",
+      "question": "What is the difference between Checked and Unchecked Exceptions?",
+      "answer": "Checked Exceptions:\n• Checked at compile-time\n• Must be handled or declared\n• Extend Exception class\n• Examples: IOException, SQLException\n\nUnchecked Exceptions:\n• Checked at runtime\n• Not required to handle\n• Extend RuntimeException class\n• Examples: NullPointerException, ArrayIndexOutOfBoundsException"
+    },
+    {
+      "id": 9,
+      "category": "Multithreading",
+      "question": "What is the difference between Thread and Runnable?",
+      "answer": "Thread:\n• A class that implements thread functionality\n• Extends Thread class\n• Cannot extend other classes (single inheritance)\n• More overhead\n\nRunnable:\n• An interface for thread execution\n• Implements Runnable interface\n• Can extend other classes\n• Preferred approach for thread creation\n• More flexible and reusable"
+    },
+    {
+      "id": 10,
+      "category": "Java 8 Features",
+      "question": "What are Lambda Expressions in Java 8?",
+      "answer": "Lambda expressions are a concise way to represent anonymous functions. They enable functional programming in Java.\n\nSyntax: (parameters) -> expression or (parameters) -> { statements; }\n\nExample:\n// Old way\nRunnable r1 = new Runnable() {\n    public void run() {\n        System.out.println(\"Hello\");\n    }\n};\n\n// Lambda way\nRunnable r2 = () -> System.out.println(\"Hello\");"
+    }
+  ],
+  "springboot": [
+    {
+      "id": 1,
+      "category": "Basics of Spring & Spring Boot",
+      "question": "What is Spring Boot?",
+      "answer": "Spring Boot is an open-source Java-based framework used to create stand-alone, production-grade Spring-based applications with minimal configuration. It simplifies the development of Spring applications by providing auto-configuration, embedded servers, and production-ready features out of the box."
+    },
+    {
+      "id": 2,
+      "category": "Basics of Spring & Spring Boot",
+      "question": "What is the difference between Spring and Spring Boot?",
+      "answer": "Spring vs Spring Boot:\n\n| Feature | Spring | Spring Boot |\n|---------|--------|-------------|\n| Configuration | Requires extensive XML/annotation configuration | Auto-configuration available |\n| Dependency Management | Manual dependency management | Starter dependencies simplify management |\n| Embedded Server | Requires external server | Embedded servers (Tomcat, Jetty) |\n| Development Time | More time for setup | Faster development and setup |\n| XML Configuration | Required for many features | Minimal or no XML needed |\n| Production Ready | Requires additional setup | Built-in production-ready features |"
+    },
+    {
+      "id": 3,
+      "category": "Basics of Spring & Spring Boot",
+      "question": "What are the advantages of using Spring and Spring Boot?",
+      "answer": "Advantages of Spring:\n• Lightweight and modular\n• Dependency Injection and IoC\n• Aspect-Oriented Programming (AOP)\n• Transaction Management\n• Integration with other frameworks\n\nAdvantages of Spring Boot:\n• Auto-configuration\n• Standalone applications\n• Embedded servers\n• Production-ready features (metrics, health checks)\n• Reduced boilerplate code\n• Easy dependency management with starters\n• Microservices development support"
+    },
+    {
+      "id": 4,
+      "category": "Basics of Spring & Spring Boot",
+      "question": "What are the main features of Spring Boot?",
+      "answer": "Main features of Spring Boot:\n\n1. Auto-Configuration: Automatically configures Spring application based on dependencies\n2. Starter Dependencies: Pre-configured dependency descriptors\n3. Embedded Servers: Tomcat, Jetty, or Undertow embedded\n4. Spring Boot CLI: Command-line tool for rapid development\n5. Actuator: Production-ready features (metrics, health checks)\n6. No XML Configuration: Convention over configuration\n7. Easy Dependency Management: Simplified Maven/Gradle configuration\n8. Microservices Support: Easy to create microservices architecture\n9. Developer Tools: Auto-restart, live reload\n10. External Configuration: Properties files, YAML files, environment variables"
+    },
+    {
+      "id": 5,
+      "category": "Basics of Spring & Spring Boot",
+      "question": "Why is Spring Boot preferred over other frameworks/languages?",
+      "answer": "Spring Boot is preferred because:\n\n• Rapid Development: Quick setup and minimal configuration\n• Production Ready: Built-in monitoring and health checks\n• Microservices: Best suited for microservices architecture\n• Community Support: Large community and extensive documentation\n• Integration: Easy integration with databases, messaging queues, etc.\n• Testing Support: Comprehensive testing framework\n• Scalability: Highly scalable applications\n• Enterprise Ready: Used by major enterprises worldwide\n• Cloud Native: Easy deployment to cloud platforms\n• Flexibility: Works with various databases and technologies"
+    },
+    {
+      "id": 6,
+      "category": "Basics of Spring & Spring Boot",
+      "question": "What is the role of POM.xml in Spring Boot?",
+      "answer": "POM.xml (Project Object Model) is the fundamental unit of work in Maven. In Spring Boot:\n\n• Dependency Management: Defines all project dependencies\n• Parent POM: Inherits from spring-boot-starter-parent\n• Version Management: Manages versions of dependencies\n• Build Configuration: Defines build plugins and goals\n• Project Information: Contains project metadata\n• Starter Dependencies: Includes spring-boot-starter-* dependencies\n• Plugin Configuration: Configures Maven plugins like spring-boot-maven-plugin\n\nExample:\n<parent>\n    <groupId>org.springframework.boot</groupId>\n    <artifactId>spring-boot-starter-parent</artifactId>\n    <version>3.0.0</version>\n</parent>"
+    },
+    {
+      "id": 7,
+      "category": "Basics of Spring & Spring Boot",
+      "question": "What are starter dependencies in Spring Boot?",
+      "answer": "Starter dependencies are pre-configured dependency descriptors that simplify dependency management in Spring Boot.\n\nCommon Starters:\n• spring-boot-starter-web: Web applications with Spring MVC\n• spring-boot-starter-data-jpa: JPA with Hibernate\n• spring-boot-starter-security: Spring Security\n• spring-boot-starter-test: Testing libraries\n• spring-boot-starter-actuator: Production monitoring\n• spring-boot-starter-thymeleaf: Thymeleaf template engine\n\nBenefits:\n• Simplified dependency management\n• Compatible versions bundled together\n• Reduced configuration\n• Quick project setup"
+    },
+    {
+      "id": 8,
+      "category": "Basics of Spring & Spring Boot",
+      "question": "What is auto-configuration in Spring Boot?",
+      "answer": "Auto-configuration is a feature that automatically configures Spring application based on the dependencies present in the classpath.\n\nKey Points:\n• Reduces manual configuration\n• Uses @EnableAutoConfiguration or @SpringBootApplication\n• Conditional configuration based on classpath\n• Can be customized or disabled\n• Configuration classes in spring-boot-autoconfigure module\n\nExample:\nIf H2 database is in classpath, Spring Boot automatically:\n• Configures DataSource\n• Sets up JPA EntityManager\n• Creates transaction manager\n\nDisabling specific auto-configuration:\n@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})"
+    },
+    {
+      "id": 9,
+      "category": "Basics of Spring & Spring Boot",
+      "question": "What are properties in Spring Boot?",
+      "answer": "Properties in Spring Boot are configuration values stored in external files that can be accessed throughout the application.\n\nTypes:\n1. application.properties (key=value format)\n2. application.yml (YAML format)\n\nUsage:\n• Database configuration\n• Server port settings\n• Logging levels\n• Custom application settings\n\nExample (application.properties):\nserver.port=8081\nspring.datasource.url=jdbc:mysql://localhost:3306/mydb\nspring.datasource.username=root\n\nAccessing in code:\n@Value(\"${server.port}\")\nprivate int serverPort;"
+    },
+    {
+      "id": 10,
+      "category": "Basics of Spring & Spring Boot",
+      "question": "What is the need for a properties file in Spring Boot?",
+      "answer": "Properties file is needed for:\n\n• Externalized Configuration: Separate configuration from code\n• Environment-Specific Settings: Different configs for dev, test, prod\n• Easy Modification: Change settings without recompiling\n• Security: Keep sensitive data separate from source code\n• Flexibility: Override defaults easily\n• Maintainability: Centralized configuration management\n• Profile-Based Configuration: Use different properties for different profiles\n\nProfile-specific properties:\n• application-dev.properties\n• application-prod.properties\n• application-test.properties"
+    },
+    {
+      "id": 11,
+      "category": "Basics of Spring & Spring Boot",
+      "question": "What is the default server port in Spring Boot?",
+      "answer": "The default server port in Spring Boot is 8080.\n\nTo change the port, add to application.properties:\nserver.port=8081\n\nOr in application.yml:\nserver:\n  port: 8081\n\nTo use a random port:\nserver.port=0"
+    },
+    {
+      "id": 12,
+      "category": "Basics of Spring & Spring Boot",
+      "question": "What servers are supported by Spring Boot?",
+      "answer": "Spring Boot supports three main embedded servers:\n\n1. Apache Tomcat (Default):\n   • Most widely used\n   • Included in spring-boot-starter-web\n   • Supports Servlet and JSP\n\n2. Jetty:\n   • Lightweight and fast\n   • Good for microservices\n   • Better for WebSocket applications\n\n3. Undertow:\n   • High performance\n   • Low memory footprint\n   • Good for high-concurrency applications\n\nSwitching servers (exclude Tomcat, include Jetty):\n<dependency>\n    <groupId>org.springframework.boot</groupId>\n    <artifactId>spring-boot-starter-web</artifactId>\n    <exclusions>\n        <exclusion>\n            <groupId>org.springframework.boot</groupId>\n            <artifactId>spring-boot-starter-tomcat</artifactId>\n        </exclusion>\n    </exclusions>\n</dependency>\n<dependency>\n    <groupId>org.springframework.boot</groupId>\n    <artifactId>spring-boot-starter-jetty</artifactId>\n</dependency>"
+    },
+    {
+      "id": 13,
+      "category": "Spring Boot Architecture and Core Concepts",
+      "question": "What is Dependency Injection in Spring Boot, and what are its types?",
+      "answer": "Dependency Injection (DI) is a design pattern where objects receive their dependencies from external sources rather than creating them.\n\nTypes of DI:\n\n1. Constructor Injection (Recommended):\n@Autowired\npublic UserService(UserRepository userRepository) {\n    this.userRepository = userRepository;\n}\n\n2. Setter Injection:\n@Autowired\npublic void setUserRepository(UserRepository userRepository) {\n    this.userRepository = userRepository;\n}\n\n3. Field Injection (Not recommended):\n@Autowired\nprivate UserRepository userRepository;\n\nBenefits:\n• Loose coupling\n• Easy testing\n• Maintainable code\n• Reusability"
+    },
+    {
+      "id": 14,
+      "category": "Spring Boot Architecture and Core Concepts",
+      "question": "What is the role of the IoC Container in Spring Boot?",
+      "answer": "IoC (Inversion of Control) Container is the core of Spring Framework that manages the lifecycle and configuration of application objects (beans).\n\nKey Responsibilities:\n• Creating objects (beans)\n• Managing object lifecycle\n• Injecting dependencies\n• Configuring beans\n• Wiring beans together\n\nTypes of IoC Containers:\n1. BeanFactory: Basic container\n2. ApplicationContext: Advanced container (commonly used)\n\nApplicationContext types:\n• AnnotationConfigApplicationContext\n• ClassPathXmlApplicationContext\n• FileSystemXmlApplicationContext\n• WebApplicationContext\n\nBenefits:\n• Centralized configuration\n• Loose coupling\n• Easy testing\n• Lifecycle management"
+    },
+    {
+      "id": 15,
+      "category": "Spring Boot Architecture and Core Concepts",
+      "question": "What are Spring Beans?",
+      "answer": "Spring Beans are objects that are managed by the Spring IoC container. They form the backbone of a Spring application.\n\nKey Points:\n• Created, configured, and managed by Spring Container\n• Defined using annotations or XML\n• Default scope is singleton\n• Can have lifecycle callbacks\n\nCreating Beans:\n\n1. Using @Component:\n@Component\npublic class UserService { }\n\n2. Using @Bean:\n@Configuration\npublic class AppConfig {\n    @Bean\n    public UserService userService() {\n        return new UserService();\n    }\n}\n\n3. Stereotype Annotations:\n• @Service\n• @Repository\n• @Controller\n• @RestController"
+    },
+    {
+      "id": 16,
+      "category": "Spring Boot Architecture and Core Concepts",
+      "question": "What are the different bean scopes in Spring Boot?",
+      "answer": "Bean scopes define the lifecycle and visibility of beans in the Spring container.\n\nScopes:\n\n1. Singleton (Default):\n   • One instance per Spring container\n   • Shared across the application\n   @Scope(\"singleton\")\n\n2. Prototype:\n   • New instance every time requested\n   • Not cached\n   @Scope(\"prototype\")\n\n3. Request (Web):\n   • One instance per HTTP request\n   @Scope(\"request\")\n\n4. Session (Web):\n   • One instance per HTTP session\n   @Scope(\"session\")\n\n5. Application (Web):\n   • One instance per ServletContext\n   @Scope(\"application\")\n\n6. WebSocket:\n   • One instance per WebSocket session\n   @Scope(\"websocket\")"
+    },
+    {
+      "id": 17,
+      "category": "Spring Boot Architecture and Core Concepts",
+      "question": "Where do we use Application scope in Spring Boot?",
+      "answer": "Application scope is used in web applications where you need one instance of a bean per ServletContext (entire web application).\n\nUse Cases:\n• Application-wide configuration\n• Shared cache across all users\n• Application-level counters/statistics\n• Global application state\n• Shared resources like thread pools\n\nExample:\n@Bean\n@Scope(value = WebApplicationContext.SCOPE_APPLICATION, proxyMode = ScopedProxyMode.TARGET_CLASS)\npublic AppConfig appConfig() {\n    return new AppConfig();\n}\n\nDifference from Singleton:\n• Singleton: One per Spring ApplicationContext\n• Application: One per ServletContext\n• In most cases, they behave similarly\n• Application scope is specifically for web applications"
+    },
+    {
+      "id": 18,
+      "category": "Spring Boot Architecture and Core Concepts",
+      "question": "What is the difference between @Component and @Bean annotations in Spring?",
+      "answer": "@Component:\n• Class-level annotation\n• Used for auto-detection by component scanning\n• Creates bean automatically\n• You don't control bean creation\n• Used when you have source code access\n• Example:\n  @Component\n  public class UserService { }\n\n@Bean:\n• Method-level annotation\n• Used in @Configuration classes\n• Explicit bean creation\n• Full control over bean creation\n• Used when you don't have source code (third-party libraries)\n• Example:\n  @Configuration\n  public class AppConfig {\n      @Bean\n      public RestTemplate restTemplate() {\n          return new RestTemplate();\n      }\n  }\n\nWhen to use:\n• @Component: Your own classes\n• @Bean: Third-party classes, complex initialization"
+    },
+    {
+      "id": 19,
+      "category": "Spring Boot Architecture and Core Concepts",
+      "question": "What is the difference between @Component and @Controller?",
+      "answer": "@Component vs @Controller:\n\n| Feature | @Component | @Controller |\n|---------|-----------|-------------|\n| Purpose | Generic stereotype annotation | Specialized for web controllers |\n| Layer | Any layer | Presentation layer |\n| Specialization | Base annotation | Specialized @Component |\n| Use Case | General Spring beans | Web MVC controllers |\n| Return Type | Any | Views, Model objects |\n| Request Mapping | No | Works with @RequestMapping |\n| View Resolution | No | Yes, resolves views |\n\nNote: @Controller = @Component + web-specific features\n\nExample:\n@Component\npublic class EmailService { }\n\n@Controller\npublic class UserController {\n    @RequestMapping(\"/users\")\n    public String getUsers() {\n        return \"users\";\n    }\n}"
+    },
+    {
+      "id": 20,
+      "category": "Spring Boot Architecture and Core Concepts",
+      "question": "What is the difference between @Mock and @InjectMocks annotations in testing?",
+      "answer": "@Mock vs @InjectMocks:\n\n| Feature | @Mock | @InjectMocks |\n|---------|-------|-------------|\n| Purpose | Creates mock object | Creates object and injects mocks into it |\n| Usage | For dependencies | For class under test |\n| Injection | Doesn't inject | Injects @Mock objects |\n| Implementation | Creates proxy/stub | Creates actual instance |\n| Dependencies | No | Yes, needs @Mock dependencies |\n\nExample:\npublic class UserServiceTest {\n    @Mock\n    private UserRepository userRepository; // Mock dependency\n    \n    @InjectMocks\n    private UserService userService; // Test object with injected mocks\n    \n    @BeforeEach\n    void setUp() {\n        MockitoAnnotations.openMocks(this);\n    }\n    \n    @Test\n    void testGetUser() {\n        when(userRepository.findById(1L)).thenReturn(Optional.of(new User()));\n        User user = userService.getUser(1L);\n        assertNotNull(user);\n    }\n}"
+    }
+  ]
+}
