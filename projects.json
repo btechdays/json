@@ -737,6 +737,29 @@
       "likes": "2.5K+",
       "sourceCodeUrl": "",
       "sourceCodeLabel": ""
+    },
+    {
+      "id": 36,
+      "title": "AI Text Summarizer",
+      "description": "An AI Text Summarizer uses artificial intelligence to condense long texts into short, meaningful summaries. It identifies key ideas and main points using natural language processing, helping users quickly understand content. This tool saves time and boosts productivity in education, business, and research.",
+      "videoId": "gJhIZWmJ9Ds",
+      "tags": [
+        "Google Gemini Ai",
+        "Angular",
+        "Spring Boot",
+        "Java",
+        "MySQL",
+        "HTML",
+        "CSS"
+      ],
+      "difficulty": "Advanced",
+      "duration": "9:52",
+      "category": "Web Application",
+      "publishedDate": "2025-10-28",
+      "views": "100+",
+      "likes": "9+",
+      "sourceCodeUrl": "https://drive.google.com/file/d/1y-I5vHJlJjX_XVeL8wwM4xg8ay5fVNGg/view?usp=drive_link",
+      "sourceCodeLabel": "Project Assets"
     }
   ],
   "channelStats": {
