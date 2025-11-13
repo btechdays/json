@@ -760,6 +760,29 @@
       "likes": "9+",
       "sourceCodeUrl": "https://drive.google.com/file/d/19uSoxAlX9ScBNaNodPjMG7eMtpw_Pcm5/view?usp=drive_link",
       "sourceCodeLabel": "Project Assets"
+    },
+    {
+      "id": 37,
+      "title": "Netflix Clone",
+      "description": "Netflix Clone is a web application that allows users to browse, search, and stream movies and shows online. It provides features like user authentication, watchlists, and video management. The system is built to demonstrate how streaming platforms work using modern web technologies.",
+      "videoId": "XmPX_u1FUy0",
+      "tags": [
+        "Angular",
+        "Spring Boot",
+        "Java",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "JWT"
+      ],
+      "difficulty": "Advanced",
+      "duration": "32:11",
+      "category": "Web Application",
+      "publishedDate": "2025-11-11",
+      "views": "146+",
+      "likes": "11+",
+      "sourceCodeUrl": "https://drive.google.com/file/d/1WUtc-xf3ieCBv3PP-WxoQwJmuoswEBrg/view?usp=sharing",
+      "sourceCodeLabel": "Project Assets"
     }
   ],
   "channelStats": {
