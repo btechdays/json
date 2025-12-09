@@ -779,10 +779,33 @@
       "duration": "32:11",
       "category": "Web Application",
       "publishedDate": "2025-11-11",
-      "views": "500+",
-      "likes": "24+",
+      "views": "700+",
+      "likes": "30+",
       "sourceCodeUrl": "https://drive.google.com/drive/folders/1JbWOtWMb1hmfTlZ0mJV_YgaPoL7bdRa7?usp=sharing",
       "sourceCodeLabel": "Project Assets"
+    },
+    {
+      "id": 38,
+      "title": "Spotify Clone",
+      "description": "Spotify Clone is a web app that lets users stream music, create playlists, manage favorites, and explore tracks using a clean and modern UI.",
+      "videoId": "qkuz_t9RfVQ",
+      "tags": [
+        "Angular",
+        "Spring Boot",
+        "Java",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "JWT"
+      ],
+      "difficulty": "Advanced",
+      "duration": "33:01",
+      "category": "Web Application",
+      "publishedDate": "2025-11-19",
+      "views": "300+",
+      "likes": "18+",
+      "sourceCodeUrl": "",
+      "sourceCodeLabel": ""
     }
   ],
   "channelStats": {
